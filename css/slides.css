@@ -1,0 +1,16 @@
+.slide {
+    height: 100vh;
+    position: relative;
+}
+
+.slide.inverse {
+    background-color: #e9ecef;
+}
+
+.slide .header {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    margin-top: 0;
+    font-size: 64px;
+}

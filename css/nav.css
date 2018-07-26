@@ -1,0 +1,48 @@
+.affix-top {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+}
+
+.affix-top .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.affix {
+    transition: all 0.5s;
+    width: 100%;
+    background-color: #292b2c !important;
+}
+
+.affix .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar.affix a, .navbar.affix li a {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    z-index: 9999;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.navbar li.active a {
+    border-bottom: 2px white solid;
+}
+
+.navbar li a {
+    color: black;
+}
+
+.navbar li a:hover, .navbar li a:visited, .navbar li a:focus {
+    border-bottom: 2px lightgray solid;
+    background-color: transparent;
+}
