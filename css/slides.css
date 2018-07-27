@@ -7,10 +7,39 @@
     background-color: #e9ecef;
 }
 
+.slide.transparent {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.slide.paralax {
+    background: url("../assets/images/placeholder.png"), black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .slide .header {
     position: absolute;
     right: 50px;
     bottom: 100px;
     margin-top: 0;
     font-size: 64px;
+}
+
+.first-slide {
+    padding: 0 !important;
+}
+
+.first-slide img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
