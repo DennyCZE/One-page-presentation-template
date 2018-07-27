@@ -1,0 +1,18 @@
+#text-carousel {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.carousel-content {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-content div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
