@@ -16,6 +16,7 @@
     <link href="css/slides.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/helpers.css" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -36,6 +37,7 @@
                     <li><a href="#slide-2">Section 2</a></li>
                     <li><a href="#slide-3">Section 3</a></li>
                     <li><a href="#slide-4">Section 4</a></li>
+                    <li><a href="#slide-5">Section 5</a></li>
                 </ul>
             </div>
         </div>
@@ -52,12 +54,41 @@
 </div>
 
 <div id="slide-3" class="slide transparent">
-    <div class="slide container-fluid paralax">
-
-    </div>
+    <div class="slide container-fluid paralax"></div>
 </div>
 
 <div id="slide-4" class="container-fluid slide inverse">
+    <div class="center-div">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div id="slide-5" class="container-fluid slide">
     <div include-html="gallery.html"></div>
 </div>
 
