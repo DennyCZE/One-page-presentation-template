@@ -128,20 +128,17 @@
 }
 @media (max-width: 768px) {
     .gal-container .modal-content{
-        height:250px;
+        height: 250px;
     }
 }
 /* Footer Style */
 i.red{
-    color:#BC0213;
+    color: #BC0213;
 }
 .gal-container{
-    padding-top :75px;
-    padding-bottom:75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 footer{
     font-family: 'Quicksand', sans-serif;
-}
-footer a,footer a:hover{
-    color: #88C425;
 }
