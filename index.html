@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -13,6 +15,7 @@
     <link href="css/nav.css" rel="stylesheet">
     <link href="css/slides.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -29,33 +32,33 @@
         <div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#1">Section 1</a></li>
-                    <li><a href="#2">Section 2</a></li>
-                    <li><a href="#3">Section 3</a></li>
-                    <li><a href="#4">Section 4</a></li>
+                    <li><a href="#slide-1">Section 1</a></li>
+                    <li><a href="#slide-2">Section 2</a></li>
+                    <li><a href="#slide-3">Section 3</a></li>
+                    <li><a href="#slide-4">Section 4</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
 
-<div id="1" class="container-fluid slide first-slide">
+<div id="slide-1" class="container-fluid slide first-slide">
     <img src="assets/images/placeholder.png">
     <h1 class="header">One Page Template</h1>
 </div>
 
-<div id="2" class="container-fluid slide inverse">
+<div id="slide-2" class="container-fluid slide inverse">
 
 </div>
 
-<div id="3" class="slide transparent">
+<div id="slide-3" class="slide transparent">
     <div class="slide container-fluid paralax">
 
     </div>
 </div>
 
-<div id="4" class="container-fluid slide inverse">
-
+<div id="slide-4" class="container-fluid slide inverse">
+    <div include-html="gallery.html"></div>
 </div>
 
 <div class="container">
@@ -78,7 +81,9 @@
 </div>
 
 <!-- Custom js for this template -->
+<script src="js/include-html.js"></script>
 <script src="js/smooth-scroll.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
