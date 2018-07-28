@@ -47,3 +47,25 @@
     border-bottom: 2px lightgray solid;
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .affix-top {
+        width: 100%;
+        background-color: #292b2c !important;
+    }
+
+    .affix-top .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar.affix-top a, .navbar.affix-top li a {
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar-collapse.collapse.in, .navbar-collapse.collapsing {
+        border: none;
+        border-top: 1px solid dimgray;
+        box-shadow: none;
+    }
+}
