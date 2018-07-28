@@ -130,6 +130,10 @@
     .gal-container .modal-content{
         height: 250px;
     }
+
+    .gal-container .modal-dialog {
+        top: 35% !important;
+    }
 }
 /* Footer Style */
 i.red{
