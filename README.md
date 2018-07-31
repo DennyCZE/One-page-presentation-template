@@ -2,7 +2,7 @@
 Template made for one page presentation sites using mostly Bootstrap 3.
 
 ## Instalation
-Just copy or download repository. It is basing HTML template which can be integrated anywhere.
+Just copy or download repository. It is basic HTML template which can be integrated anywhere.
 
 ## Features
 
